@@ -1,0 +1,101 @@
+@import 'colors.styl'
+@import 'utilities.styl'
+@import 'icons.styl'
+@import 'forms.styl'
+@import 'fonts.styl'
+@import 'mixins.styl'
+
+.active
+    border none
+
+a
+    color info
+body
+    font-family 'Open Sans', sans-serif
+.navbar
+    background #f2f2f2
+    &-logo
+        margin 0px
+        padding 10px 0px
+        img
+            vertical-align bottom
+
+.container
+    background green
+    color white
+    padding 80px 0
+    &-header
+        display flex
+        justify-content space-between
+        align-items center
+        .container-description
+            .container-title
+                margin-bottom 25px
+                font-size 2.5em
+                font-weight 200
+
+.index-posts
+    padding 25px 0px
+    .post-item
+        border 1px solid #f2f2f2
+        border-radius(5px)
+        padding 15px
+        margin 10px 0px
+        &:hover
+            background rgba(#f2f2f2, 0.4)
+        .post-itemTitle
+            color complement
+            margin 0
+            font-size 1.4em
+            text-decoration none
+            &:hover
+                text-decoration underline
+        .post-itemDate
+                font-size 0.7em
+                margin-top 5px
+                color gray
+    
+
+.articles
+    padding 5px 0px 15px 0px
+    &-items
+        padding 15px
+        .articles-itemsFilter
+            display inline-block
+            font-size 0.8em
+            margin-right 10px
+        li
+            display inline-block
+            
+    .article
+        border 1px solid #f2f2f2
+        border-radius(5px)
+        padding 15px
+        margin 10px 0px
+        &:hover
+                background rgba(#f2f2f2, 0.4)
+        &-title
+            color complement
+            margin 0
+            font-size 1.4em
+            text-decoration none
+            &:hover
+                text-decoration underline
+        &-url
+            font-size 0.7em
+            margin 0
+            color secondary
+            display inline-block
+        &-date
+            font-size 0.7em
+            margin-top 5px
+            color gray
+
+.footer
+    background brown
+    color white
+    padding 25px 0
+    text-align center
+    .footer-description
+        margin 0
+        font-size 0.9em
