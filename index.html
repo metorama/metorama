@@ -67,7 +67,6 @@
                 {{#each}}
                     <div class="article">
                         {{#link-to 'post' this classNames='article-title'}}{{title}}{{/link-to}}
-                        <p class="article-url">{{url}}</p>
                         <p class="article-date">{{date publishDate}}</p>
                         <p class="article-description">{{description}}</p>
                     </div>
@@ -80,7 +79,6 @@
         <div class="u-wrapper">
             <section class="articles">
                 <a class="article-title" href="{{url}}"> {{title}}</a>
-                <a class="article-url" href="{{url}}" target="_BLANK" >{{url}}</a>
                 <p class="article-date"> {{date publishDate}} </p>
                 <p class="article-description"> {{description}} </p>
             </section>
