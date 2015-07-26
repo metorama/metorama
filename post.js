@@ -1,30 +1,9 @@
 App.Post.FIXTURES = [
-	{
-		id: 1,
-		title: 'I love Blood 4',
-		url: 'www.facebook.com',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, veniam, doloremque. Sequi amet ipsum, fuga nostrum aliquam similique expedita repudiandae minima magni doloribus ducimus quo blanditiis dolorum voluptatum reiciendis pariatur.',
-		publishDate: "05/19/2015",
-	},
-	{
-		id: 4,
-		title: 'Hello World',
-		url: 'www.facebook.com',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, veniam, doloremque. Sequi amet ipsum, fuga nostrum aliquam similique expedita repudiandae minima magni doloribus ducimus quo blanditiis dolorum voluptatum reiciendis pariatur.',
-		publishDate: "07/24/2015"
-	},
-	{
-		id: 2,
-		title: 'A little Count',
-		url: 'www.google.com',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, veniam, doloremque. Sequi amet ipsum, fuga nostrum aliquam similique expedita repudiandae minima magni doloribus ducimus quo blanditiis dolorum voluptatum reiciendis pariatur.',
-		publishDate: "07/26/2015",
-	},
-	{
-		id: 3,
-		title: 'I love Blood 3',
-		url: 'www.facebook.com',
-		description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, veniam, doloremque. Sequi amet ipsum, fuga nostrum aliquam similique expedita repudiandae minima magni doloribus ducimus quo blanditiis dolorum voluptatum reiciendis pariatur.',
-		publishDate: "07/20/2015",
-	}
+    {
+        id : 1,
+        title : 'Tips para lanzar tu producto por el founder de product hunt, Ryan Hoover',
+        summary : 'Ryan Hoover es el fundador y CEO de Produc Hunt. En la última edición de Five Questions, Kevin Rose menciona a Ryan como un experto a la hora de ayudar a las startups o empresas a ser reconocidas. Google Ventures se sentó con Ryan para encontrar como Product Hunt se volvió popular tan rápidamente, y recibir sus consejos sobre como los fundadores puedan lanzar sus productos.',
+        content : '1. What is the key to getting noticed on Product Hunt? \n “It’s most important that people understand exactly what your product does. If they don’t understand what it does, they’re not going to care.”\n It’s critical to know who your product is built for (and the answer can’t be “everyone”). With a solid understanding of who your product is for, capture their attention by clearly communicating what your product does. Ryan cautions against getting too wrapped up in your long-term vision at the expense of clear communication: “You’re thinking five years down the road, and you have a big vision you want to tell. But in reality, you should communicate your product very simply, in plain English. Maybe it won’t sound as grandiose as where you’re going in the future, but it’s most important that people understand exactly what your product does. Clearly communicating what you do is one of the most important aspects of launching a product.”\n 2. How did Product Hunt get so popular so quickly? \n “We built a tight community that had a bond around something.”\n Ryan Hoover built Product Hunt for a tiny user base: himself. As his passion-project grew into a company, Product Hunt stayed focused on a core audience of startup enthusiasts to establish a tight-knit community. Bonded around technology and finding new things, that strong community was integral to Product Hunt’s success: “Building something for everyone in the beginning is incredibly difficult. I would suggest that it’s better to focus on a niche and create a beachhead first, rather than trying to appeal to everyone.” \n 3. How is product discovery changing? \n “Social is playing a huge role in how people discover things. Discovery is being driven by millions and millions of people that are essentially curating.” \n SEO is no longer the lone king of product discovery. With the rise of social changing the way people interact online, sites and networks that allow millions of people to share and curate content are also playing a huge role in how people find new products. “Discovery is being driven by millions and millions of people that are essentially curating through Twitter or Facebook, Pinterest, even Product Hunt. What we’re seeing is more of a democratization of curation and discovery itself. We’re certainly playing a role in that — hopefully more so in the long term.” \n 4. How do you make product decisions? \n “There are a billion features we could make. The hard part is choosing which ones to focus on. You only have a finite number that you can actually execute.” \n When making product decisions, don’t just listen to what your community asks for — understand the root of the problem they are trying to solve. At Product Hunt the team looks at actual user behavior to sort out the difference between what people say and what they do. As an example: “We noticed that people were creating lists of products they found on Product Hunt using bookmarks and other tools. So we wondered, ‘How can we actually help them do that more easily on Product Hunt?’ We created Collections through that observation.” \n 5. What is the top trait to look for in hiring? \n “Look for people that have started a side project or built companies in the past.” \n At a small company like Product Hunt, autonomy and curiosity are key ingredients for every employee. To find people who are authentically interested in creating something new, Ryan looks for people who have started side projects or companies in the past: “They know what it’s like to start something from scratch.”',
+        publishDate : '07/26/2015',
+    },
 ]

@@ -1,6 +1,6 @@
 App.PostsRoute = Ember.Route.extend({
 	model: function(){
-		return this.store.findAll('post');
+		return this.store.find('post');
 	},
  // actions: {
  //    signInToPost: function(){

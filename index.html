@@ -46,11 +46,12 @@
         </section>
         <section class="index-posts" >
             <div class="u-wrapper">
+                <h2 class="index-title">Últimos artículos</h2>
                 {{#each publishDate}}
                     <div class="post-item">
                         {{#link-to 'post' this classNames='post-itemTitle'}}{{title}}{{/link-to}}
                         <p class="post-itemDate">{{date publishDate}}</p>
-                        <p class="post-itemDescription">{{truncate description}}</p>
+                        <p class="post-itemDescription">{{truncate summary}}</p>
                     </div>
                 {{/each}}
             </div>
@@ -68,7 +69,7 @@
                     <div class="article">
                         {{#link-to 'post' this classNames='article-title'}}{{title}}{{/link-to}}
                         <p class="article-date">{{date publishDate}}</p>
-                        <p class="article-description">{{description}}</p>
+                        <p class="article-description">{{truncate summary}}</p>
                     </div>
                 {{/each}}
             </section>
@@ -76,11 +77,12 @@
     </script>
 
     <script type="text/x-handlebars" data-template-name="post">
-        <div class="u-wrapper">
+        <div class="u-articleWrapper">
             <section class="articles">
-                <p class="article-title"> {{title}}</p>
-                <p class="article-date"> {{date publishDate}} </p>
-                <p class="article-description"> {{description}} </p>
+                <p class="article-title"> {{model.title}}</p>
+                <p class="article-date"> {{date model.publishDate}} </p>
+                <p class="article-summary"> {{model.summary}} </p>
+                <p class="article-description"> {{model.content}} </p>
             </section>
         </div>
     </script>
@@ -99,7 +101,6 @@
 
     <!-- Controllers -->
     <script src="controllers/about.js"></script>
-    <script src="controllers/post.js"></script>
     <script src="controllers/posts.js"></script>
     <script src="controllers/index.js"></script>
 

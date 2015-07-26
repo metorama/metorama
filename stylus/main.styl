@@ -5,9 +5,6 @@
 @import 'fonts.styl'
 @import 'mixins.styl'
 
-.active
-    border none
-
 a
     color info
 body
@@ -33,9 +30,16 @@ body
                 margin-bottom 25px
                 font-size 2.5em
                 font-weight 200
+    &-owl
+        padding-left 25px
 
 .index-posts
     padding 25px 0px
+    .index-title
+        text-align center
+        padding-bottom 20px
+        font-size 1.7em
+        font-weight 200
     .post-item
         border 1px solid #f2f2f2
         border-radius(5px)
@@ -74,15 +78,15 @@ body
         &-title
             color complement
             margin 0
-            font-size 1.4em
+            font-size 2em
             text-decoration none
-            &:hover
-                text-decoration underline
-        &-url
-            font-size 0.7em
-            margin 0
-            color secondary
-            display inline-block
+        &-summary
+            border-bottom 1px solid rgba(dark,.1)
+            font-size 0.9em
+            color gray
+            font-style italic
+            margin 25px 0px
+            padding-bottom 15px
         &-date
             font-size 0.7em
             margin-top 5px
