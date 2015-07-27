@@ -4,6 +4,8 @@ App.ApplicationAdapter = DS.FixtureAdapter.extend();
 
 App.Post = DS.Model.extend({
     title: DS.attr('string'),
+    image: DS.attr('string'),
+    slug: DS.attr('string'),
     summary: DS.attr('string'),
     content: DS.attr('string'),
     publishDate: DS.attr('date')

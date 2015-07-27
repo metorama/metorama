@@ -13,6 +13,8 @@
  
 </head>
 <body>
+
+<div id="disqus_thread"></div>
     <script type="text/x-handlebars" data-template-name="application">
         <div class="navbar">
             <nav class="u-wrapper">
@@ -51,7 +53,7 @@
                     <div class="post-item">
                         {{#link-to 'post' this classNames='post-itemTitle'}}{{title}}{{/link-to}}
                         <p class="post-itemDate">{{date publishDate}}</p>
-                        <p class="post-itemDescription">{{truncate summary}}</p>
+                        <p class="post-itemDescription">{{{truncate summary}}}</p>
                     </div>
                 {{/each}}
             </div>
@@ -69,7 +71,7 @@
                     <div class="article">
                         {{#link-to 'post' this classNames='article-title'}}{{title}}{{/link-to}}
                         <p class="article-date">{{date publishDate}}</p>
-                        <p class="article-description">{{truncate summary}}</p>
+                        <p class="article-description">{{{truncate summary}}}</p>
                     </div>
                 {{/each}}
             </section>
@@ -79,10 +81,13 @@
     <script type="text/x-handlebars" data-template-name="post">
         <div class="u-articleWrapper">
             <section class="articles">
-                <p class="article-title"> {{model.title}}</p>
+                <figure class="article-image">
+                    <img {{bind-attr src="image" }}  />
+                </figure>
+                <h1 class="article-title"> {{model.title}}</h1>
                 <p class="article-date"> {{date model.publishDate}} </p>
                 <p class="article-summary"> {{model.summary}} </p>
-                <p class="article-description"> {{model.content}} </p>
+                <p class="article-description"> {{{renderHTML model.content}}} </p>
             </section>
         </div>
     </script>
@@ -102,6 +107,7 @@
     <!-- Controllers -->
     <script src="controllers/about.js"></script>
     <script src="controllers/posts.js"></script>
+    
     <script src="controllers/index.js"></script>
 
     <!-- Routes -->
@@ -112,6 +118,9 @@
     <!-- Helpers -->
     <script src="helpers/date.js"></script>
     <script src="helpers/truncate.js"></script>
+    <script src="helpers/rawhtml.js"></script>
 
+    <!-- Views -->
+    <script src="views/disqus.js"></script>
 </body>
 </html>
