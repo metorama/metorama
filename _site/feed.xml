@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
+  <channel>
+    <title>Readactor</title>
+    <description>Encuentra aquí esos artículos que no habías podido leer porqué estaban en otro idioma.</description>
+    <link>Readactor</link>
+    <atom:link href="Readactor/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Tips para lanzar tu producto por el fundador de product hunt, Ryan Hoover</title>
+        
+        
+          <description>&lt;h2&gt;1. ¿Cuál es la clave para tener mayor relevancia en Product Hunt?&lt;/h2&gt;
+</description>
+        
+        <pubDate>Fri, 31 Jul 2015 16:37:00 -0500</pubDate>
+        <link>Readactor/tips-para-lanzar-tu-producto/</link>
+        <guid isPermaLink="true">Readactor/tips-para-lanzar-tu-producto/</guid>
+      </item>
+    
+      <item>
+        <title>El momento en que me enamoré del mundo de las startups</title>
+        
+        
+          <description>&lt;p&gt;&lt;em&gt;11 años atrás,&lt;/em&gt; yo era la vicepresidenta de marketing en un banco. Estaba aburrida con el trabajo y cansada de hacer comunicados de prensa que no me interesaban. Una noche, terminé en una fiesta donde no conocía ni a un alma. Había ido con planes de verme con un amigo. — sólo que cuando llegué, me dijeron que estaba en Arkansas acompañado a Wesley Clark en su campaña presidencial. Quería irme a casa - Casi lo hago - Pero en el último minuto decidí quedarme unas horas más.&lt;/p&gt;
+</description>
+        
+        <pubDate>Wed, 29 Jul 2015 17:26:00 -0500</pubDate>
+        <link>Readactor/mundo-de-las-startups/</link>
+        <guid isPermaLink="true">Readactor/mundo-de-las-startups/</guid>
+      </item>
+    
+  </channel>
+</rss>
