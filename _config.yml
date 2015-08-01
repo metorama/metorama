@@ -19,7 +19,7 @@ url:            'Readactor'
 author:         'Readactor'
 authorTwitter:  '@santiagoeastman'
 
-permalink:       /:title/
+permalink:       :title/
 
 defaults:
     -
