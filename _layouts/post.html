@@ -43,7 +43,7 @@ archive: true
         <h3>Otros artículos</h3>
         {% for post in site.posts %}
             <li>
-                <a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
+                <a href="{{ base.url }}{{ post.url }}">{{ post.title }}<aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
             </li>
         {% endfor %}
     </ul>
