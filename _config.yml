@@ -8,8 +8,8 @@ markdown: redcarpet
 highlighter: pygments
 
 paginate: 20
-baseurl: http://metorama.github.io/readactor/
-domain_name: 'http://metorama.github.io/readactor'
+baseurl: http://metorama.github.io/
+domain_name: 'http://metorama.github.io/'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: true
 disqus_shortname: 'readactor'
