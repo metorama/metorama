@@ -17,7 +17,7 @@ disqus_shortname: 'readactor'
 # Details for the RSS feed generator
 url:            'Readactor'
 author:         'Readactor'
-authorTwitter:  '@santiagoeastman'
+authorTwitter:  'santiagoeastman'
 
 permalink:       :title/
 
