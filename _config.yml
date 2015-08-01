@@ -9,7 +9,7 @@ highlighter: pygments
 
 paginate: 20
 baseurl: http://metorama.github.io/readactor/
-domain_name: 'http://metorama.github.io/readactor/'
+domain_name: 'http://metorama.github.io/readactor'
 google_analytics: 'UA-XXXXXXXX-X'
 disqus: true
 disqus_shortname: 'readactor'
@@ -19,7 +19,7 @@ url:            'Readactor'
 author:         'Readactor'
 authorTwitter:  '@santiagoeastman'
 
-permalink:       :title/
+permalink:       /:date/:title/
 
 defaults:
     -
