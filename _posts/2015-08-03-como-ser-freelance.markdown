@@ -128,3 +128,7 @@ hora regresa a tu bandeja de entrada y empieza a refrescar.
 Solo bromeaba.
 
 Todo el mundo sabe que el correo se actualiza solo en estos días...
+
+[Leer artículo original][original]
+
+[original]: https://medium.pjrvs.com/master-working-for-yourself-without-crushing-your-soul-b8a980763d43
