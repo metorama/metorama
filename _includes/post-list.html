@@ -2,7 +2,7 @@
     {% for post in paginator.posts %}
         <li>
             <a href='{{ base.url }}{{ post.url }}'><aside class="dates">{{ post.date | date:"%b %d" }}</aside></a>
-            <a href='{{ base.url }}{{ post.url }}'>{{ post.title }} <h2>{{ post.description|truncatechars:100}}</h2></a>
+            <a href='{{ base.url }}{{ post.url }}'>{{ post.title }} <h2>{{ post.description | length > 80 }}</h2></a>
             <a href="{{ base.url }}about" class="author">Por: {{ site.author }}</span>
         </li>
     {% endfor %}
