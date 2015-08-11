@@ -3,6 +3,7 @@ title:  "El momento en que me enamoré del mundo de las startups"
 date:   2015-07-29 22:26:00
 description: Todo en mi vida sucedió por casualidad. La mayoría de las personas no saben que me atrapó en las startups, mientras trabajaba en mi libro, Founders at Work. Ese libro me inspiró a ayudar las startups en su etapa primaria y por últímo, iniciar Y Combinator.
 image: '../assets/images/posts/jessica.gif'
+label: 'startups'
 ---
 
 *11 años atrás,* yo era la vicepresidenta de marketing en un banco. Estaba aburrida con el trabajo y cansada de hacer comunicados de prensa que no me interesaban. Una noche, terminé en una fiesta donde no conocía ni a un alma. Había ido con planes de verme con un amigo. — sólo que cuando llegué, me dijeron que estaba en Arkansas acompañado a Wesley Clark en su campaña presidencial. Quería irme a casa - Casi lo hago - Pero en el último minuto decidí quedarme unas horas más.

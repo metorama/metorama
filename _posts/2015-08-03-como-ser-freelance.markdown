@@ -3,6 +3,7 @@ title:  "Guía para ser un buen freelance por Paul Jarvis"
 date:   2015-08-5 10:00:00
 description: Renuncié a mi trabajo en una agencia y busqué trabajar en otra agencia. Mi plan después de renunciar, era ir a la librería (no te rías, esto fue en los 90´s) para aprender como debía escribir mi CV. Como fui contratado directamente desde la escuela, no había escrito uno antes.
 image: '../assets/images/posts/freelance.jpg'
+label: Diseño
 ---
 
 Renuncié a mi trabajo en una agencia y busqué trabajar en otra agencia. Mi plan después de renunciar, era ir a la librería (no te rías, esto fue en los 90´s) para aprender como debía escribir mi CV. Como fui contratado directamente desde la escuela, no había escrito uno antes.

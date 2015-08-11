@@ -271,6 +271,14 @@ em, i { font-style: italic; }
     width: 80%;
 }
 
+.label{
+    border: 1px solid #cccccc;
+    display: inline-block;
+    border-radius: 5px;
+    padding: 2px 15px;
+    font-size: 0.8em;
+}
+
 h3, h4, h5 { color:#333; }
 
 h3 { font-size:20px; font-weight: 400; }
