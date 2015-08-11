@@ -64,7 +64,7 @@ Debes clasificarlos en los siguientes 3 puntos:
 
 Tienes que definir lo que significa cada uno para tu empresa. Ej. ¿Qué consideran un "proyecto mediano"? ¿Qu tiene valor para tu negocio (crecimiento, conversiones, ahorrar dinero, etc.)?
 
-No tiene porqué ser tan preciso, es una ayuda. Probablemente esté mal, pero hay que empezar por algún lado.
+No tiene porque ser tan preciso, es una ayuda. Probablemente esté mal, pero hay que empezar por algún lado.
 
 Pero sí es importante que hagas esta clasificación con ayuda de otras personas. Intenta incluir otros equipos: desarrollo, diseño, el encargado de producto, etc. Según cómo clasifiques los datos puede reflejar el impacto que puede tener para tu empesa. Puede ser un proyecto pequeño para el equipo de desarrollo pero un esfuerzo enorme para diseño o trabajo de marketing.
 
@@ -109,7 +109,7 @@ Esta estructura es realmente útil cuando hiciste una investigación de tus usua
 
 En la vida real, tendrás que considerar en tu plan todos los otros proyectos que no precisamente provienen del análisis de los usuarios: SEO, marketing, las ideas locas del CEO, etc. Los puedes agregar y evaluar de la misma manera.
 
-Este enfoque te dará mayor visibilidad y te ayudará a ti y al resto de participantes a tomar decisiones juntos. No es lo más preciso y no tiene porqué serlo.
+Este enfoque te dará mayor visibilidad y te ayudará a ti y al resto de participantes a tomar decisiones juntos. No es lo más preciso y no tiene porque serlo.
 
 Consideralo como un _backlog_ de tu producto que podrás ir reevaluando. Si necesitas algo más preciso, puedes tomar los primeros 2 o 3 meses de tu plan y crear un análisis más detallado.
 
