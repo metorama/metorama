@@ -3,6 +3,7 @@ title:  "Tips para lanzar tu producto por el fundador de product hunt, Ryan Hoov
 date:   2015-07-31 21:37:00
 description: Ryan Hoover es el fundador y CEO de Product Hunt. En la última edición de Five Questions, Kevin Rose menciona a Ryan como un experto a la hora de ayudar a las startups a ser reconocidas. Y es por esto que Google Ventures tuvo una entrevista con Ryan para saber como fue que Product Hunt se volvió tan popular a la hora de ayudar a las personas a lanzar su propio proyecto.
 image: '../assets/images/posts/ryan-hoover.jpg'
+label: Producto
 ---
 
 ##1. ¿Cuál es la clave para tener mayor relevancia en Product Hunt?

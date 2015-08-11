@@ -3,6 +3,7 @@ title:  "Cómo construir un roadmap de producto, basado en tu investigación del
 date:   2015-08-10 4:00:00
 description: ¿Cómo clasificar y filtrar los resultados de tu análisis de los usuarios y transformarlos en acciones? ¿Por dónde empezar?
 image: '../assets/images/posts/user-research-roadmap-header.jpg'
+label: Producto
 ---
 
 ¿Cómo clasificar y filtrar los resultados de tu análisis de los usuarios y transformarlos en acciones? ¿Por dónde empezar?
