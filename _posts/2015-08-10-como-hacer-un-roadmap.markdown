@@ -30,7 +30,7 @@ Es importante hacer parte del proceso a los que estén dispuestos a participar: 
 
 Lo primero que debes hacer es identificar los datos relevantes e importantes de tu investigación. Manten en mente los que tengan patrón con tus usuarios de prueba. Si es necesario cuantifica los resultados para que el resto de tu equipo pueda generar casos de estudio.
 
-En este punto es importante que presentes los resultados de la mejor manera posible. Usa cualquier evidencia que tenga el usuario (video, fotos, testimonios, etc.) 
+En este punto es importante que presentes los resultados de la mejor manera posible. Usa cualquier evidencia que tenga el usuario (video, fotos, testimonios, etc.)
 
 ## 2. Agrupa los datos para crear plantillas de tus proyectos.
 
