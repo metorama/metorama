@@ -9,7 +9,7 @@ highlighter: pygments
 
 paginate: 10
 baseurl: /
-domain_name: 'http://metorama.github.io/'
+domain_name: 'http://metorama.github.io'
 google_analytics: 'UA-65859158-1'
 disqus: true
 disqus_shortname: 'readactor'
