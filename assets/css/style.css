@@ -231,7 +231,7 @@ em, i { font-style: italic; }
 }
 
 .post h2 {
-    margin-bottom: 40px;
+    margin: 20px 0px;
     font: 300 24px/1.5 "Helvetica Neue",Helvetica,Arial,sans-serif;
     color: #111;
 }
@@ -240,13 +240,14 @@ em, i { font-style: italic; }
 .post h2.headline {
     /*font: italic 22px/1.3em Georgia,serif;*/
     font: normal 13px/1.5em "Helvetica Neue",Helvetica,Arial,sans-serif;
-    margin: -5px 0 40px 0;
+    margin: -5px 0 20px 0;
+    border-bottom: 1px solid #eeeeee;
     color: #b2b9be;
-      font-size: 13px;
-      text-transform: uppercase;
-      letter-spacing: 2px;
-      /*margin-top: 15px;*/
-      display: inline-block;
+    font-size: 13px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    /*margin-top: 15px;*/
+    display: inline-block;
 }
 
 .post .post-image{
@@ -268,7 +269,7 @@ em, i { font-style: italic; }
 }
 
 .post img{
-    width: 80%;
+    width: 100%;
 }
 
 .label{

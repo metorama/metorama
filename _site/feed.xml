@@ -2,9 +2,21 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/">
   <channel>
     <title>Readactor</title>
-    <description>Encuentra aquí esos artículos que no habías podido leer porqué estaban en otro idioma.</description>
+    <description>Encuentra los temas que querías leer en tu idioma.</description>
     <link>Readactor</link>
     <atom:link href="Readactor/feed.xml" rel="self" type="application/rss+xml" />
+    
+      <item>
+        <title>Porque todos en tu equipo son diseñadores UX</title>
+        
+        
+          <description>&lt;p&gt;Seamos sinceros, es raro ver colaboraciones entre diseñadores UX y el resto de los equipos durante todo el proceso. En la mayoría de lugares donde he trabajado, los diseñadores, desarrolladores y los managers de producto necesitan resolver muchos problemas de UX por su cuenta.&lt;/p&gt;
+</description>
+        
+        <pubDate>Fri, 14 Aug 2015 17:00:00 -0500</pubDate>
+        <link>Readactor/porque-todos-son-disenadores-ux/</link>
+        <guid isPermaLink="true">Readactor/porque-todos-son-disenadores-ux/</guid>
+      </item>
     
       <item>
         <title>Cómo construir un roadmap de producto, basado en tu investigación del usuario</title>

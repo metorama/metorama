@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Readactor - Porque todos en tu equipo son diseñadores UX</title>
+  <link rel="shortcut icon" href="/assets/images/favicon.ico">
+  <link rel="stylesheet" href="/assets/css/style.css">
+  <link rel="alternate" type="application/rss+xml" title="My Blog" href="/rss.xml">
+  <link rel="stylesheet" href="/assets/css/highlight.css">
+</head>
+<body>
+
+  <nav class="main-nav">
+    
+        <a href='/'> <span class="arrow">←</span> Home </a>
+    
+
+    
+        
+            <a href='/about'>About </a>
+        
+    
+    <a class="cta" href="/feed.xml">Subscribe</a>
+</nav>
+
+  
+
+  <section id="wrapper" class="">
+    <article class="post">
+    <header>
+        <figure class="post-image">
+            <img src="../assets/images/posts/ux-design.jpg" alt="">
+        </figure>
+        <h1>Porque todos en tu equipo son diseñadores UX</h1>
+        <h2 class="headline">08/14/15</h2>
+    </header>
+    <section id="post-body">
+        <p>Seamos sinceros, es raro ver colaboraciones entre diseñadores UX y el resto de los equipos durante todo el proceso. En la mayoría de lugares donde he trabajado, los diseñadores, desarrolladores y los managers de producto necesitan resolver muchos problemas de UX por su cuenta.</p>
+
+<p>Cosa que no ocurre con el diseño de interfaces, desarrollo Front-End o desarrollo Back-End. Por ejemplo, el código del Front-End es hecho únicamente por el desarrollador Front-End.</p>
+
+<p>Para explicar mejor este problema, inventé un producto (parecido a Gmail), llamado <em>Deliver</em> - un cliente para email muy sencillo - y te mostraré cómo la falta de conocimientos de UX en cada etapa del proyecto, puede hacer que todo salga mal.</p>
+
+<h2>Wireframe</h2>
+
+<p>Asumamos que tenemos el wireframe básico de nuestra aplicación, hecho por el encargado de UX después de una invesitación apropiada.</p>
+
+<p><img src="../assets/images/posts/1.png" alt=""></p>
+
+<p>Después de ser aprobado por los jefes, fue enviado a los diseñadores con unos estados y capturas más. A todo el mundo le gustó el diseño y creen que no hay nada que pueda ir mal.</p>
+
+<p>Dos diseñadores diferentes trabajaron en dos versiones. El resultado fue interesante.</p>
+
+<h3>Diseñador No. 1</h3>
+
+<p><img src="../assets/images/posts/2.png" alt=""></p>
+
+<p><img src="../assets/images/posts/3.png" alt=""></p>
+
+<h4>Nota:</h4>
+
+<ul>
+<li>Falta contraste.</li>
+<li>La barra de búsqueda es dificil de encontrar.</li>
+<li>Las características más importantes no están claras.</li>
+<li>Los enlaces parecen deshabilitados.</li>
+</ul>
+
+<h3>Diseñador No. 2</h3>
+
+<p><img src="../assets/images/posts/4.png" alt=""></p>
+
+<p><img src="../assets/images/posts/5.png" alt=""></p>
+
+<h4>Nota:</h4>
+
+<ul>
+<li>Buen uso del contraste.</li>
+<li>La barra de búsqueda es muy clara.</li>
+<li>Las características más importantes están bien resaltadas.</li>
+<li>Buen uso de jerarquías.</li>
+</ul>
+
+<p><strong>Resumen:</strong> Ambos diseñadores hicieron un increible trabajo en cuanto a diseño. Eligieron los colores adecuados, hicieron un buen uso del espacio en blanco y fueron muy consistentes. Pero el diseñador No. 2 dio en el clavo, mientras que el primero fue un desastre en cuanto a UX.</p>
+
+<p><hr /></p>
+
+<p>Ahora, una vez el diseño fue aprobado, se envió al equipo de Front-End. De nuevo, ambos tienen dos enfoques diferentes respecto al UX.</p>
+
+<h3>Front-End No. 1</h3>
+
+<p><img src="../assets/images/posts/6.gif" alt=""></p>
+
+<p><img src="../assets/images/posts/7.png" alt=""></p>
+
+<h4>Nota:</h4>
+
+<ul>
+<li>Animación complicada para una tarea sencilla y la más importante.</li>
+<li>Carga desorganizada de los iconos.</li>
+</ul>
+
+<h3>Front-End No. 2</h3>
+
+<p><img src="../assets/images/posts/8.gif" alt=""></p>
+
+<p><img src="../assets/images/posts/9.png" alt=""></p>
+
+<h4>Nota:</h4>
+
+<ul>
+<li>Una transición rápida.</li>
+<li>Los iconos cargan al tiempo.</li>
+</ul>
+
+<p><strong>Resumen:</strong> las pequeñas diferencias hacen un gran cambio. Muchos desarrolladores pecan cometiendo esos errores una y otra vez. En nuestro caso, ambos desarrolladores han tenido bastante experiencia, y son buenas personas. Saben como escribir código legible, reusable y limpio. Sin embargo, el Front-End No. 2 contempla la satisfacción de los usuarios.</p>
+
+<p><hr /></p>
+
+<p>Después de que uno de los Front-End fuera despedido :) el otro paso su código al lado de los Back-End. Su trabajo es poblar la UI con contenido real desde la base de datos. Veamos lo que pasó.</p>
+
+<h3>Back-End No. 1</h3>
+
+<p><img src="../assets/images/posts/10.gif" alt=""></p>
+
+<p><img src="../assets/images/posts/11.png" alt=""></p>
+
+<h4>Nota:</h4>
+
+<ul>
+<li>El servidor devuelve toda la base de datos cuando se hace un pedido. Esto hace que la carga inicial sea larga y esto hará que los usuarios crean que la plataforma es lenta.</li>
+</ul>
+
+<h3>Back-End No. 2</h3>
+
+<p><img src="../assets/images/posts/12.gif" alt=""></p>
+
+<p><img src="../assets/images/posts/13.png" alt=""></p>
+
+<h4>Nota:</h4>
+
+<ul>
+<li>El servidor devuelve los correos de la base de datos en pequeños grupos, lo que hace pensar que la carga es super rápida.</li>
+</ul>
+
+<p><strong>Resumen:</strong> el primer desarrollador escribió la plataforma para que cargue los datos más rápido, pero no se dio cuenta que el usuario necesitaba los más recientes, lo más rápido que se pudiera. Esto demuestra que incluso una decisión hecha por un desarrollador (o tal vez, un supervisor) puede causar un gran impacto en toda la experiencia del usuario.</p>
+
+<p><hr /></p>
+
+<h2>¿Qué podemos aprender de esto?</h2>
+
+<ul>
+<li>Como desarrollador de producto, necesitas agregar el UX bien arriba en tu lista de propósitos.</li>
+<li>Que alguien tenga el título de &quot;Diseñador UX&quot; no significa que solamente el pueda mejorar el UX en tu producto. Es un esfuerzo en conjunto, concidera a todos los de tu equipo como diseñadores UX.</li>
+<li>Aún así, tu querrás un experto en tu equipo. Pero el UX no solamente es hacer una carga más rápida, un diseño limpio y libre de distracciones. Es acerca de pensar en tus usuarios 200% todo el tiempo.</li>
+<li>UX es lo mejor :D</li>
+</ul>
+
+<p>Escrito por Ariel Verber en Medium. <a href="https://medium.com/@arielverber/why-every-member-in-your-team-is-a-ux-designer-2bd470ea048e">Leer artículo original</a></p>
+
+        <p>Tags: <span class="label"> Diseño, UX </span></p>
+    </section>
+</article>
+<footer id="post-meta" class="clearfix">
+    <a href="http://twitter.com/santiagoeastman">
+        <img class="avatar" src="/assets/images/author-image.png">
+        <div>
+            <span class="dark">Por: Readactor</span>
+            <span>Encuentra los temas que querías leer en tu idioma.</span>
+        </div>
+    </a>
+
+    <section id="sharing">
+        <a class="twitter" href="https://twitter.com/intent/tweet?text=http://metorama.github.io//porque-todos-son-disenadores-ux/ - Porque todos en tu equipo son diseñadores UX by @santiagoeastman"><span class="icon-twitter"> Tweet</span></a>
+
+<a class="facebook" href="#" onclick="
+    window.open(
+      'https://www.facebook.com/sharer/sharer.php?u='+encodeURIComponent(location.href),
+      'facebook-share-dialog',
+      'width=626,height=436');
+    return false;"><span class="icon-facebook-rect"> Share</span>
+</a>
+    </section>
+</footer>
+
+<!-- Disqus comments -->
+
+    <div class="archive readmore">
+        <h3>Comentarios</h3>
+        <section class="disqus">
+    <div id="disqus_thread"></div>
+    <script type="text/javascript">
+        var disqus_shortname = 'readactor';
+        var disqus_developer = 0; // developer mode is on
+        (function() {
+            var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+            dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+            (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+    </div>
+
+
+<!-- Archive post list -->
+
+    <ul id="post-list" class="archive readmore">
+        <h3>Otros artículos</h3>
+        
+            <li>
+                <a href="/porque-todos-son-disenadores-ux/">Porque todos en tu equipo son diseñadores UX<aside class="dates">08/14/15</aside></a>
+            </li>
+        
+            <li>
+                <a href="/como-hacer-un-roadmap/">Cómo construir un roadmap de producto, basado en tu investigación del usuario<aside class="dates">08/09/15</aside></a>
+            </li>
+        
+            <li>
+                <a href="/como-ser-freelance/">Guía para ser un buen freelance por Paul Jarvis<aside class="dates">08/05/15</aside></a>
+            </li>
+        
+            <li>
+                <a href="/tips-para-lanzar-tu-producto/">Tips para lanzar tu producto por el fundador de product hunt, Ryan Hoover<aside class="dates">07/31/15</aside></a>
+            </li>
+        
+            <li>
+                <a href="/mundo-de-las-startups/">El momento en que me enamoré del mundo de las startups<aside class="dates">07/29/15</aside></a>
+            </li>
+        
+    </ul>
+
+
+
+
+
+  </section>
+
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="/assets/js/main.js"></script>
+  <script src="/assets/js/highlight.js"></script>
+  <script>hljs.initHighlightingOnLoad();</script>
+  <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-65859158-1', 'auto');
+    ga('send', 'pageview');
+  </script>
+  <script src="//my.hellobar.com/eda37ccdb4e834e6ac507181f6ba009cce73ce98.js" type="text/javascript" charset="utf-8" async="async"></script>
+</body>
+</html>
+
+
+
